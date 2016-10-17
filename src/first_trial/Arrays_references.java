@@ -7,7 +7,7 @@ public class Arrays_references {
 	 */
 	public static void main(String[] args) {
 		
-		/*insted we write data like this
+		/*instead we write data like this
 		int a = 10;
 		int b = 20;
 		int c,d,e;

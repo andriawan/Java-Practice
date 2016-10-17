@@ -1,2 +1,0 @@
-object_oriented_programming.Irwan
-object_oriented_programming.Andriawan

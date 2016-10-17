@@ -30,7 +30,7 @@ public class For_references {
 		 *  
 		 */
 		
-		//for(initil value; condition; increment/decrement)
+		//for(initial value; condition; increment/decrement)
 		for(int v = 0; v <= 10; v++){
 			// v++ equals to v = v + 1
 			System.out.println("v = " + v);

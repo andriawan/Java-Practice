@@ -14,17 +14,20 @@ import javax.swing.JOptionPane;
 public class InputGui {
     
     public static void main(String[] args) {
+        String head = "informasi";
+        String s = "Masukkan Kata:";
+        String space = " ";
         String name;
-        name= JOptionPane.showInputDialog("Input Something:");
+        name= JOptionPane.showInputDialog(s);
         
         String name2;
-        name2= JOptionPane.showInputDialog("Input Something:");
+        name2= JOptionPane.showInputDialog(s);
         
         String name3;
-        name3= JOptionPane.showInputDialog("Input Something:");
+        name3= JOptionPane.showInputDialog(s);
         
-        String msgx = name +" " + name2 +" "  + name3;
-        JOptionPane.showMessageDialog(null, msgx);
+        String msgx = name + space+ name2 + space  + name3;
+        JOptionPane.showMessageDialog(null, msgx, head, 1);
     }
     
 }
